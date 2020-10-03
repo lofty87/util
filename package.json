@@ -1,6 +1,6 @@
 {
   "name": "@lofty87/util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this module is for utility only in the lofty87 project",
   "author": {
     "name": "lofty87",
@@ -29,17 +29,17 @@
     "clean": "rm -rf build node_modules"
   },
   "dependencies": {
+    "@lofty87/types": "~1.0.11",
+    "@types/lodash": "~4.14.159",
+    "@types/moment": "~2.13.0",
+    "@types/mongoose": "~5.7.36",
+    "@types/node": "~14.0.27",
     "lodash": "~4.17.19",
     "moment": "~2.27.0",
     "mongoose": "~5.9.28"
   },
   "devDependencies": {
     "@lofty87/eslint-config": "~1.1.22",
-    "@lofty87/types": "~1.0.11",
-    "@types/lodash": "~4.14.159",
-    "@types/moment": "~2.13.0",
-    "@types/mongoose": "~5.7.36",
-    "@types/node": "~14.0.27",
     "eslint": "~7.6.0",
     "nodemon": "~2.0.4",
     "ts-node": "~8.10.2",
