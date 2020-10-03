@@ -8,19 +8,38 @@ this module is for **utility** only in the lofty87 project
 npm install --save @lofty87/util
 ```
 
-## 2. Util
+## 2. Usage
 
 ```ts
-import {
-  AsyncFunction,
-  Function,
-  ModelPartial,
-  Object
-} from '@lofty87/util';
+import { arrayToObj } from '@lofty87/util';
 ```
 
-* ModelPartial
-  * advanced Partial
-  * mongoose model based
-  * contains some mongoose opertor syntax
-  * limit depth of model schema to a maximum of 3
+### - util
+
+* array
+  * arrayToObj
+
+* date
+  * formatOf
+  * fromNow
+
+* filter
+  * isNotEmpty (for compact mongoose doc)
+
+* number
+  * randomAlphaNumeric
+  * refCount (for compact mongoose doc)
+
+* object
+  * lengthOf
+  * compactObject (compact mongoose doc)
+  * advancedDefaultsDeep (except array value)
+
+* string
+  * splitBy
+  * splitByColon
+  * splitByComma
+
+* url
+  * splitPathname
+  * isDetailPage

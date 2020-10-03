@@ -10,13 +10,13 @@
     "outDir": "build",
     "declaration": true,
     // "emitDeclarationOnly": true,
-    "removeComments": true,
+    // "removeComments": true,
     // "noEmit": true,
     
     /* source map */
-    // "sourceMap": true,
-    "inlineSourceMap": true,
-    "inlineSources":true,
+    "sourceMap": true,
+    // "inlineSourceMap": true,
+    // "inlineSources":true,
     
     /* built in, module resolution */
     "lib": [
