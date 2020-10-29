@@ -1,6 +1,6 @@
 {
   "name": "@lofty87/util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this module is for utility only in the lofty87 project",
   "author": {
     "name": "lofty87",
@@ -29,7 +29,7 @@
     "clean": "rm -rf build node_modules"
   },
   "dependencies": {
-    "@lofty87/types": "~1.0.11",
+    "@lofty87/types": "~1.0.12",
     "@types/lodash": "~4.14.159",
     "@types/moment": "~2.13.0",
     "@types/mongoose": "~5.7.36",
